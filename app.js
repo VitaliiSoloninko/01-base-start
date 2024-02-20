@@ -1,14 +1,14 @@
 // Ctrl + K + C - закоментувати рядки
 // Ctrl + K + U - розкоментувати рядки
 
-let num = 42 // number
-let numFloat = 4.2 // float через точку
-let firstName = 'Vitalii' // string
-const isProgrammer = true // boolean
+// let num = 42 // number
+// let numFloat = 4.2 // float через точку
+// let firstName = 'Vitalii' // string
+// const isProgrammer = true // boolean
 // num - змінна - variable
 // firstName стиль кемел кейс CamelCase
 
-firstName = 'Max'
+// firstName = 'Max'
 
 /* Can Do -  разрешено
 let $ = 'test'
@@ -48,3 +48,19 @@ let false // зарезервовані слова
 // const fullName = firstName + ' Philipovich' // конкантинація обєднання строк/рядків
 // const fullName = firstName + ' ' + 'Philipovich'
 // console.log(fullName)
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+const resultElement = document.getElementById('result') // отримати елемент з HTML по id - це функція
+const input1 = document.getElementById('input1')
+const input2 = document.getElementById('input2')
+
+// console.log(input2.value)
+// console.log(resultElement.textContent)
+// resultElement.textContent = 42
+
+// приведение типов, поміняти строчки на числа
+// const sum = input1.value + input2.value // сума складається не з чисел а з строк string 10 + 5 = 105
+const sum = Number(input1.value) + Number(input2.value)
+resultElement.textContent = sum 
+console.log(typeof sum) // перевірка типу typeof
