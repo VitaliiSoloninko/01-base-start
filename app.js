@@ -8,7 +8,6 @@ const isProgrammer = true // boolean
 // num - змінна - variable
 // firstName стиль кемел кейс CamelCase
 
-
 firstName = 'Max'
 
 /* Can Do -  разрешено
@@ -45,3 +44,7 @@ let false // зарезервовані слова
 
 // let num3 =  (num + 10) * 2 / 3 -1
 // console.log(num3)
+
+// const fullName = firstName + ' Philipovich' // конкантинація обєднання строк/рядків
+// const fullName = firstName + ' ' + 'Philipovich'
+// console.log(fullName)
